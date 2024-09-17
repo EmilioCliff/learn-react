@@ -1,14 +1,14 @@
 import React from 'react';
 import { FaQuestion } from 'react-icons/fa';
 import { BrowserRouter as Router, Route, Routes, Link, NavLink } from 'react-router-dom';
-import Header from './components/Header';
-import FeedbackList from './components/FeedbackList';
-import FeedbackStats from './components/FeedbackStats';
-import FeedbackForm from './components/FeedbackForm';
-import AboutPage from './pages/AboutPage';
-import PostPage from './pages/PostPage';
-import BlogsPage from './pages/BlogsPage';
-import Card from './components/shared/Card';
+import Header from './components/Header.jsx';
+import FeedbackList from './components/FeedbackList.jsx';
+import FeedbackStats from './components/FeedbackStats.jsx';
+import FeedbackForm from './components/FeedbackForm.jsx';
+import AboutPage from './pages/AboutPage.jsx';
+import PostPage from './pages/PostPage.jsx';
+import BlogsPage from './pages/BlogsPage.jsx';
+import Card from './components/shared/Card.jsx';
 import { FeedbackProvider } from './context/FeedbackContext.js';
 
 function App() {
