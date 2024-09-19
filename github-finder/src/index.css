@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  height: 100vh;
+}
+
+.btn-ghost:hover {
+  background-color: rgb(126, 125, 125);
+}
+
+.no-change:hover {
+  background-color: #1f2937;
+}
+
+.card,
+.stats
+/* .location-badge  */ {
+  background-color: #4b5563;
+  /* background-color: #1f2937; */
+  color: white;
+}
+
+.stats::-webkit-scrollbar {
+  display: none; /* Hide scrollbar */
+}
+
+.stat-title {
+  color: white;
+  opacity: 0.4;
+}
+
+.repo-info {
+  background-color: #1f2937;
+}
+
+.custom-card-image .card.image-full:before {
+  border-radius: 0.5rem;
+  opacity: 0.5;
+}
